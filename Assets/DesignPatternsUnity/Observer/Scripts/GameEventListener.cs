@@ -3,9 +3,8 @@ using UnityEngine.Events;
 
 public class GameEventListener : MonoBehaviour
 {
-    [Tooltip("Event to trigger with")]
-    [SerializeField] private GameEvent gameEvent;
-    [SerializeField] private UnityEvent onEventTriggered; // Response to invoke when event is triggered
+    [SerializeField] private GameEvent gameEvent; // Event to trigger with
+    [SerializeField] private UnityEvent onEventTriggered; // Response when event is triggered
 
     private void OnEnable()
     {

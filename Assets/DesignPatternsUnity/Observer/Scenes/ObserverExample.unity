@@ -234,10 +234,10 @@ RectTransform:
   m_Father: {fileID: 2018482124}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -64.46106}
-  m_SizeDelta: {x: 0, y: 128.9221}
+  m_SizeDelta: {x: 880, y: 128.9221}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420206738
 MonoBehaviour:
@@ -286,8 +286,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -723,7 +723,9 @@ MonoBehaviour:
   materials:
   - {fileID: 2100000, guid: edf5b40ba43f8854798db6f3a1638a21, type: 2}
   - {fileID: 2100000, guid: 365bfa04837658845892b6c7b6bcc4ce, type: 2}
+  - {fileID: 2100000, guid: fc3124de2f877d84787b06bcb153b17a, type: 2}
   - {fileID: 2100000, guid: c736bd5ebf6cad34cb81b27fe64f3110, type: 2}
+  - {fileID: 2100000, guid: aea1dd3fab1561349a884216f745218b, type: 2}
 --- !u!1 &1550031426
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,12 +861,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

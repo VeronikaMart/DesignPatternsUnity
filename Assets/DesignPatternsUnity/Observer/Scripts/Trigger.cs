@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Trigger : MonoBehaviour
@@ -8,6 +6,7 @@ public class Trigger : MonoBehaviour
 
     private void Update()
     {
+        // Trigger that invoke the event
         if (Input.GetKeyDown(KeyCode.Space))
         {
             gameEvent.TriggerEvent();

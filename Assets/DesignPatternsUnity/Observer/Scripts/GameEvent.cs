@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GameEvent", menuName = "Scriptable Objects/Game Event")]
 public class GameEvent : ScriptableObject
 {
-    // The list of listeners that this event will notify if triggered.
+    // The list of listeners that this event will notify if triggered
     private List<GameEventListener> eventListeners = new List<GameEventListener>();
 
     public void TriggerEvent()
