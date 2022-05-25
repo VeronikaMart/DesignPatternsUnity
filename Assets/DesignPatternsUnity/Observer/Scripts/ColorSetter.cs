@@ -1,0 +1,18 @@
+using UnityEngine;
+
+public class ColorSetter : MonoBehaviour
+{
+    [SerializeField] private Material[] materials;
+    private MeshRenderer mesh;
+
+    private void Awake()
+    {
+        mesh = GetComponent<MeshRenderer>();
+    }
+
+    public void SetRandomColor()
+    {
+        int random = Random.Range(0, materials.Length);
+        mesh.material = materials[random];
+    }
+}
