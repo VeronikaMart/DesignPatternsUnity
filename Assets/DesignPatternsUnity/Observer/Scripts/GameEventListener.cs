@@ -1,23 +1,26 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class GameEventListener : MonoBehaviour
+namespace DesignPatterns.Observer
 {
-    [SerializeField] private GameEvent gameEvent; // Event to trigger with
-    [SerializeField] private UnityEvent onEventTriggered; // Response when event is triggered
-
-    private void OnEnable()
+    public class GameEventListener : MonoBehaviour
     {
-        gameEvent.RegisterListener(this);
-    }
+        [SerializeField] private GameEvent gameEvent; // Event to trigger with
+        [SerializeField] private UnityEvent onEventTriggered; // Response when event is triggered
 
-    private void OnDisable()
-    {
-        gameEvent.UnregisterListener(this);
-    }
+        private void OnEnable()
+        {
+            gameEvent.RegisterListener(this);
+        }
 
-    public void OnEventTriggered()
-    {
-        onEventTriggered.Invoke();
+        private void OnDisable()
+        {
+            gameEvent.UnregisterListener(this);
+        }
+
+        public void OnEventTriggered()
+        {
+            onEventTriggered.Invoke();
+        }
     }
 }

@@ -1,15 +1,18 @@
 using UnityEngine;
 
-public class Trigger : MonoBehaviour
+namespace DesignPatterns.Observer
 {
-    [SerializeField] private GameEvent gameEvent;
-
-    private void Update()
+    public class Trigger : MonoBehaviour
     {
-        // Trigger that invoke the event
-        if (Input.GetKeyDown(KeyCode.Space))
+        [SerializeField] private GameEvent gameEvent;
+
+        private void Update()
         {
-            gameEvent.TriggerEvent();
+            // Trigger that invoke the event
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                gameEvent.TriggerEvent();
+            }
         }
     }
 }
