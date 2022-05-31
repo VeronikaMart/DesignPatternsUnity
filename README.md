@@ -5,6 +5,7 @@ So I decided to collect and organize the ones I used to work with.
 
 List of Patterns (I don't really use singleton so it won't be here):   
   Factory  
+  Decorator
   Observer   
 
 
