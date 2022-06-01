@@ -4,9 +4,10 @@ But unfortunately very few applicable in the Unity.
 So I decided to collect and organize the ones I used to work with.
 
 List of Patterns (I don't really use singleton so it won't be here):     
-  Factory    
+  Factory      
   Decorator  
-  Observer     
+  Command  
+  Observer       
 
 
 
