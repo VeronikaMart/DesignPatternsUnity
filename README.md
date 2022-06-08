@@ -8,7 +8,8 @@ List of Patterns (I don't really use singleton so it won't be here):
   Decorator  
   Command  
   Observer  
-  State  
+  State   
+  Strategy   
 
 
 
