@@ -6,7 +6,7 @@ So I decided to collect and organize the ones I used to work with.
 List of Patterns (I don't really use singleton so it won't be here):     
   Factory      
   Decorator  
-  [Command](main/DesignPatternsUnity/Assets/DesignPatternsUnity/Command/)     
+  [Command](https://github.com/VeronikaMart/DesignPatternsUnity/tree/main/Assets/DesignPatternsUnity/Command)     
   Observer  
   State   
   Strategy   
