@@ -10,6 +10,7 @@ List of Patterns (I don't really use singleton so it won't be here):
   Observer  
   State   
   Strategy   
+  Object Pool   
 
 
 
