@@ -7,6 +7,7 @@ namespace DesignPatterns.Factory
         [SerializeField] private CubeFactory cubeFactory;
         private float timer = 3f;
 
+        // Generate cube at random position every 3 seconds
         private void Update()
         {
             timer -= Time.deltaTime;
